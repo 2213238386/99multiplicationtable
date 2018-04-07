@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+    <title>九九乘法表</title>
+    <style>
+        td{
+            padding: 3px 5px;
+        }
+    </style>
+    <script>
+        function Maths() {
+            document.write("<table>")
+
+            for (var x = 1; x <= 9; x++) {
+
+                document.write("<tr>")
+
+                for (var y = 1; y <= x; y++) {
+
+                    document.write("<td>" + y + "x" + x + "=" + (x * y) + "</td>")
+                }
+
+                document.write("</tr>")
+            }
+
+            document.write("</table>")
+        }
+        Maths()
+    </script>
+</head>
+
+<body>
+
+
+
+</body>
+
+</html>
